@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website Saya</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- NAvBAR -->
+        <section>
+            <header class="navbar">
+                <div class="img-icon">
+                    <img class="icon" src="css/tuot1.jpg" height="50" width="50" alt="logo tuot">
+                </div>
+                <div class="navbutton">
+                    <a class="buttonhome"href="#Home">Home</a>
+                    <a class="buttonprofile"href="#Profile">Profile</a>
+                    <a class="buttonporto"href="#Portfolio">Character</a>
+                    <a class="buttonmessage"href="#Message_Us">Message Us</a>
+                </div>
+            </header>
+        </section>
+        <!-- NAVBAR END -->
+        <hr>
+        <!-- PROFILE -->
+         <section class="profile">
+            <header class="navbar-profile">
+                <h1>Hai <span id="user-greeting">user</span> Selamat Datang di Website Kami</h1>
+            </header>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img src="css\images (1).jpg" width="1000" height="400">
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="css\images.jpg" width="1000" height="400">
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="css\man-face-adventure-time-meme-3.jpg" width="1000" height="400">
+                </div>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                </div>
+         </section>
+         <!-- PROFILE END -->
+        <hr>
+        <!-- CHARACTER -->
+        <section>
+            <header class="navbar-portfolio">
+                <h1>Character</h1>
+            </header>
+            <div class="portfolio">
+                <img src="css\amanface.jpg" width="150" height="150">
+                <p>Amogus Manface</p>
+                <img src="css\batface.webp" width="150" height="150">
+                <p>BatManface</p>
+                <img src="css\tuotface.jpg" width="150" height="150">
+                <p>Venti Manface</p>
+            </div>
+         </section>
+        <!-- PORTFOLIO END -->
+        <hr>
+         <!-- MESSAGE US -->
+         <section class="message-class">
+            <header class="navbar-message">
+                <h1>Message Us</h1>
+            </header>
+            <div class="message">
+                <table border="0">
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td><input type="text" name="nama" required></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td>:</td>
+                        <td><input type="date" name="tanggal" required></td>
+                    </tr>
+                    <tr>
+                        <div class="kelaminer">
+                        <td>Jenis Kelamin</td>
+                        <td>:</td>
+                        <td><div class="radiobutton">
+                            <input type="radio" id="laki" name="kelamin" value="Laki-Laki" required>
+                            <label for="laki">Laki-Laki</label>
+                            <input type="radio" id="perempuan" name="kelamin" value="Perempuan" required>
+                            <label for="perempuan">Perempuan</label>
+                        </td>
+                    </div>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="pesaneee">Pesan</span>
+                        </td>
+                        <td>
+                            <span class="titikdua">:</span>
+                        </td>
+                        <td><textarea id="pesan" name="pesan"></textarea></td>
+                    </tr>
+                </table>
+
+                    
+                    <button type="submit" name="submit" class="button-submit">Submit</button>
+            </div>
+                    <div id="output">
+                        <h3></h3>
+                        <p></p>
+                    </div>
+                
+            </section>    
+                <hr>
+         <!-- MESSAGE US END -->
+    </body>
+    <footer>
+
+    </footer>
+    <script src="js/script.js"></script>
+</html>

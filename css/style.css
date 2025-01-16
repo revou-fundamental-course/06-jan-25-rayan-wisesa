@@ -1,0 +1,254 @@
+body {
+    margin-inline: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-icon {
+    padding-left: 20;
+}
+
+.icon {
+    border-radius: 50%;
+}
+
+.navbutton {
+    margin-right: 70;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.buttonhome {
+    border-right: 1px black solid;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.buttonporto {
+    border-right: 1px black solid;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.buttonprofile {
+    border-right: 1px black solid;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.buttonmessage {
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.navbar-profile {
+    padding-inline: 80px;
+    padding-top: 15px;
+}
+
+.banner-profil {
+    padding-inline: 80px;
+    padding-bottom: 25px;
+}
+
+.navbar-portfolio {
+    padding-inline: 80px;
+    padding-top: 15px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+}
+
+.navbar-message {
+    padding-inline: 80px;
+    padding-top: 15px;
+}
+
+.message-us-section {
+    padding-inline: 80px;
+    display: flex;
+    gap: 30%;
+}
+
+input[type=text] {
+    width: 300px;
+    height: 30px;
+}
+
+input[type=date] {
+    width: 300px;
+    height: 30px;
+}
+
+textarea {
+    width: 300px;
+    height: 90px;
+}
+
+.radiobutton {
+    display: flex;
+}
+
+.pesaneee, .titikdua {
+    position: relative;
+    bottom: 30px;
+}
+
+.button-submit {
+    width: 100%;
+}
+
+#output {
+    border: 0.5px solid black;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        
+    }
+    
+    .navbar {
+        flex-direction: column;
+        justify-content: none;
+        gap: 20px;
+    }
+
+    .img-icon {
+        padding-left: 0;
+    }
+    
+    .icon {
+        border-radius: 50%;
+    }
+    
+    .navbutton {
+        margin-right: 0;
+        border: 1px black solid;
+        padding: 10px;
+        border-radius: 5px;
+    
+    }
+    
+    .buttonhome {
+        border-right: 1px black solid;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .buttonporto {
+        border-right: 1px black solid;
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .buttonprofile {
+        border-right: 1px black solid;
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+    }
+    
+    .buttonmessage {
+        color: black;
+        text-decoration: none;
+        padding-left: 10px;
+    }
+   
+    .slideshow-container img {
+        max-height: 290px;
+        max-width: 370px;
+
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .message-class {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+  }
